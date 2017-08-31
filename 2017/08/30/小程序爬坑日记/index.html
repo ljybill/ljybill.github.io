@@ -1,4 +1,86 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="分享|共赢|IT猿"><title> | ljybill</title><link rel="stylesheet" type="text/css" href="//fonts.css.network/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.1"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">ljybill</h1><a id="logo" href="/.">ljybill</a><p class="description">分享就是进步</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="Arama"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title"></h1><div class="post-meta"><a href="/2017/08/30/小程序爬坑日记/#comments" class="comment-count"></a><p><span class="date">Aug 30, 2017</span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i>点击</i></i></span></p></div><div class="post-content"><h1 id="小程序爬坑日记"><a href="#小程序爬坑日记" class="headerlink" title="小程序爬坑日记"></a>小程序爬坑日记</h1><p>最近因公司安排首次接触了微信小程序的开发，本来仗着有Vue的基础以为很简单，没想到开发过程中还是遇到了很多坑，不过只是接触了一个小程序的案例，好多官方api接口还没有使用过，以后有了新坑再补上。</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>ljybill</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="小程序爬坑日记最近因公司安排首次接触了微信小程序的开发，本来仗着有Vue的基础以为很简单，没想到开发过程中还是遇到了很多坑，不过只是接触了一个小程序的案例，好多官方api接口还没有使用过，以后有了新坑再补上。  注意本文默认你已经掌握了小程序的基本开发知识或者研读过小程序的官方文档  整体框架配置小程序的官方文档，介绍了整体框架的设置，里面的配置都是在.json文件中实现的。大致配置官方文档里都有">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ljybill">
+<meta property="og:url" content="http://yoursite.com/2017/08/30/小程序爬坑日记/index.html">
+<meta property="og:site_name" content="ljybill">
+<meta property="og:description" content="小程序爬坑日记最近因公司安排首次接触了微信小程序的开发，本来仗着有Vue的基础以为很简单，没想到开发过程中还是遇到了很多坑，不过只是接触了一个小程序的案例，好多官方api接口还没有使用过，以后有了新坑再补上。  注意本文默认你已经掌握了小程序的基本开发知识或者研读过小程序的官方文档  整体框架配置小程序的官方文档，介绍了整体框架的设置，里面的配置都是在.json文件中实现的。大致配置官方文档里都有">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-08-31T06:14:34.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ljybill">
+<meta name="twitter:description" content="小程序爬坑日记最近因公司安排首次接触了微信小程序的开发，本来仗着有Vue的基础以为很简单，没想到开发过程中还是遇到了很多坑，不过只是接触了一个小程序的案例，好多官方api接口还没有使用过，以后有了新坑再补上。  注意本文默认你已经掌握了小程序的基本开发知识或者研读过小程序的官方文档  整体框架配置小程序的官方文档，介绍了整体框架的设置，里面的配置都是在.json文件中实现的。大致配置官方文档里都有">
+  
+    <link rel="alternate" href="/atom.xml" title="ljybill" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">ljybill</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">分享就是进步</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-小程序爬坑日记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/08/30/小程序爬坑日记/" class="article-date">
+  <time datetime="2017-08-30T14:16:18.000Z" itemprop="datePublished">2017-08-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="小程序爬坑日记"><a href="#小程序爬坑日记" class="headerlink" title="小程序爬坑日记"></a>小程序爬坑日记</h1><p>最近因公司安排首次接触了微信小程序的开发，本来仗着有Vue的基础以为很简单，没想到开发过程中还是遇到了很多坑，不过只是接触了一个小程序的案例，好多官方api接口还没有使用过，以后有了新坑再补上。</p>
 <blockquote>
 <p>注意本文默认你已经掌握了小程序的基本开发知识或者研读过小程序的<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/" target="_blank" rel="external">官方文档</a></p>
 </blockquote>
@@ -66,5 +148,88 @@
 </code></pre><h3 id="login、getUserInfo"><a href="#login、getUserInfo" class="headerlink" title="login、getUserInfo"></a>login、getUserInfo</h3><p>login和getUserInfo可以使小程序获取到微信用户的基本信息，对于分析用户数据有很重要的作用。其中getUserInfo是需要用户授权的。</p>
 <h2 id="关于模版"><a href="#关于模版" class="headerlink" title="关于模版"></a>关于模版</h2><p>前端组件化开发的思想越来越重要，模板正是小程序组件化开发的体现，但是目前这个模板机制还不是很好，比如我们可以在template里面定义结构和样式，但是其中触发的事件还是得写到引用模板的js中，解决方案是可以在js中引入公共的模块实现。</p>
 <h2 id="结尾的话"><a href="#结尾的话" class="headerlink" title="结尾的话"></a>结尾的话</h2><p>小程序的开发过程可谓是痛苦并学习着，作为被Vuejs惯坏了的前端，写小程序有很多不方便的地方，但是仅仅一个项目并不能用到小程序的所有特性，还有很多接口没有尝试。以后计划打算使用socket进行通讯，尝试一下用户的图片和录音功能，尝试小程序的动画接口，尝试小程序的获取元素信息接口以便开发适应各个屏幕的结构。<strong>努力努力再努力！</strong></p>
-</div><div class="tags"></div><div class="post-share"><div class="bdsharebuttonbox"><span style="float:left;line-height: 28px;height: 28px;font-size:16px;font-weight:blod">分享到：</span><a href="#" data-cmd="more" class="bds_more"></a><a href="#" data-cmd="mshare" title="分享到一键分享" class="bds_mshare"></a><a href="#" data-cmd="fbook" title="分享到Facebook" class="bds_fbook"></a><a href="#" data-cmd="twi" title="分享到Twitter" class="bds_twi"></a><a href="#" data-cmd="linkedin" title="分享到linkedin" class="bds_linkedin"></a><a href="#" data-cmd="youdao" title="分享到有道云笔记" class="bds_youdao"></a><a href="#" data-cmd="evernotecn" title="分享到印象笔记" class="bds_evernotecn"></a><a href="#" data-cmd="weixin" title="分享到微信" class="bds_weixin"></a><a href="#" data-cmd="qzone" title="分享到QQ空间" class="bds_qzone"></a><a href="#" data-cmd="tsina" title="分享到新浪微博" class="bds_tsina"></a></div></div><div id="comments"></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#小程序爬坑日记"><span class="toc-text">小程序爬坑日记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#整体框架"><span class="toc-text">整体框架</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#配置"><span class="toc-text">配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#路由"><span class="toc-text">路由</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#页面间传值"><span class="toc-text">页面间传值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#运行机制"><span class="toc-text">运行机制</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#表现方面"><span class="toc-text">表现方面</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#px，pt和rpx"><span class="toc-text">px，pt和rpx</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#组件的使用"><span class="toc-text">组件的使用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#text"><span class="toc-text">text</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#input"><span class="toc-text">input</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#textarea"><span class="toc-text">textarea</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#scroll-view，swiper"><span class="toc-text">scroll-view，swiper</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#button"><span class="toc-text">button</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#API"><span class="toc-text">API</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#promise"><span class="toc-text">promise</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#request"><span class="toc-text">request</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Storage"><span class="toc-text">Storage</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#getLocation、chooseLocation、openLocation"><span class="toc-text">getLocation、chooseLocation、openLocation</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#getSystemInfo"><span class="toc-text">getSystemInfo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#showToast、showModal、showLoading"><span class="toc-text">showToast、showModal、showLoading</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#login、getUserInfo"><span class="toc-text">login、getUserInfo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于模版"><span class="toc-text">关于模版</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结尾的话"><span class="toc-text">结尾的话</span></a></li></ol></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/08/30/小程序爬坑日记/">小程序爬坑日记</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">八月 2017</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="http://www.ljybill.com/" title="mysite" target="_blank">mysite</a><ul></ul><a href="https://coder-li.github.io/" title="github" target="_blank">github</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">Baidu Site Haritası</a> |  <a href="/atom.xml">订阅</a> |  <a href="/about/">关于</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次</p><p><span> Copyright &copy;<a href="/." rel="nofollow">ljybill.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.1"></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.1" async></script><script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","weixin","tsina","qzone","linkedin","fbook","twi","print","renren","sqq","evernotecn","bdysc","tqq","tqf","bdxc","kaixin001","tieba","douban","bdhome","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","h163","copy"],"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"]}};with(document)0[(getElementsByTagName('head')[0]||head).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-</script></body></html>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/08/30/小程序爬坑日记/" data-id="cj702ag04000034s6fk7upfdj" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">八月 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/08/30/小程序爬坑日记/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 ljybill<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
